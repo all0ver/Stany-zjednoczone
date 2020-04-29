@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(images/usa.jpg);
+    background-size: 2500px;
+    background-attachment: fixed;
+    margin: 0 0;
+}
+
+header {
+    margin: 400px auto 0;
+    color: white;
+    padding: 0 500px;
+}
+
+header h1 {
+    font-size: 80px;
+    line-height: 90px;
+    border-bottom: solid 2px #2f2f2f;
+    text-shadow: 0 0 5px #000;
+}
+
+header h2 {
+    font-size: 30px;
+    line-height: 40px;
+    position: relative;
+    top: -30px;
+    text-shadow: 0 0 5px #000;
+}
+
+
+.more {
+    width: 170px;
+    text-align: center;
+    margin: 0 auto;
+    height: 45px;
+    background-color: rgb(230, 150, 2);
+    border-radius: 15px;
+    padding-top: 13px;
+}
+
+a:link {
+    color: rgb(222, 222, 222);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(222, 222, 222);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+a:active {
+    color: rgb(222, 222, 222);
+    text-decoration: none;
+}
+
+.none {
+    height: 600px;
+    clear: both;
+}
+
+.park {
+    background-color: #dddddd;
+}
+
+#atrakcje {
+    margin:  0;
+    width: 100%;
+    height: auto;
+    background-color: rgb(230, 230, 230);
+    padding: 15px;
+    font-size: 30px;
+    opacity: 0.9;
+    display: block;
+}
+
+#atrakcje p {
+    width: 1150px;
+    margin-left: 50px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 0;
+    height: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+    background-color: #000000;
+    opacity: 0.8;
+}
+
+.title {
+    font-size: 30px;
+    margin-left:50px;
+}
+
+#statua {
+    width: 500px;
+    position: absolute;
+    border: solid 25px #ffffff;
+    box-shadow: 0 0 7px #000000;
+    top: 1310px;
+    right: 100px;
+}
+
+#yellow {
+    position: absolute;
+    top: 2400px;
+    right: 100px;
+    width: 500px;
+    border: solid 25px #ffffff;
+    box-shadow: 0 0 7px #000000;
+}
+
+.zdjecia {
+    display: flex;
+    width: 170vh;
+    margin: 25px auto;
+    padding: 15px;
+}
+
+#images img {
+    height: 500px;
+    margin: 15px;
+    border: solid 10px white;
+    box-shadow: 0 0 10px #000000;
+}
+
+img:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+}
+
+img{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transition-duration: 1s;
+    margin: 0 auto;
+    display: block;
+}
